@@ -13,7 +13,7 @@ func (cr *commentRepository) FindComments(storyId string) ([]model.Comment, erro
 	var comments []model.Comment
 
 	// select * from comments where story_id = 3
-	if storyId != "3" {
+	if storyId != "1" {
 		return comments, nil
 	}
 
